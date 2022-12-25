@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+//memiliki akses untuk memberikan format pada text dengan ukuran dan jenis font.
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -39,3 +39,5 @@
         app:layout_constraintStart_toStartOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+//pada sebuah aktivitas ini merupakan view model untuk membuat suatu halaman dengan
+memuat sebuah profil pribadi.
