@@ -17,7 +17,8 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:padding="16dp">
-
+//pada sebuah kode program diatas memberikan akses untuk memuat data
+//berupa layout image dan text yang nntinya akan ditampilkan.
     <ImageView
         android:id="@+id/img_item_photo"
         android:layout_width="55dp"
