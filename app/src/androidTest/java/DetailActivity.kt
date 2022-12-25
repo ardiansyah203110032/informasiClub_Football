@@ -18,7 +18,7 @@ class DetailActivity : AppCompatActivity() {
         const val EXTRA_PHOTO = "extra_photo"
 
     }
-
+//memberikan nilai variabel yang memuat text dan image.
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
@@ -33,7 +33,7 @@ class DetailActivity : AppCompatActivity() {
         val detail = intent.getStringExtra(EXTRA_DETAIL)
         val img = intent.getIntExtra(EXTRA_PHOTO,0)
 
-
+//pada kode tersebut terhubung pada sebuah fragmen aktivty yang terhubung pada data yang menampilkan text dan image.
 
         nameText.text = name
         stadiumText.text = stadium
@@ -67,3 +67,4 @@ class DetailActivity : AppCompatActivity() {
         }
     }
 }
+//memuat semua detail dari aplikasi dengan varuabel dan konten yang diatur.
