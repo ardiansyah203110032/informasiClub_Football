@@ -15,3 +15,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/epl_logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+///pada kode program diatas merupakan sebuah imageview dari layout halaman pada aplikasi.
