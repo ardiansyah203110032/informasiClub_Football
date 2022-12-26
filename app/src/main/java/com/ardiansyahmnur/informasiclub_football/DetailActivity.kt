@@ -67,3 +67,6 @@ class DetailActivity : AppCompatActivity() {
         }
     }
 }
+//memberikan nilai variabel yang memuat text dan image.
+//pada kode tersebut terhubung pada sebuah fragmen aktivty yang terhubung pada data yang menampilkan text dan image.
+//memuat semua detail dari aplikasi dengan varuabel dan konten yang diatur.
