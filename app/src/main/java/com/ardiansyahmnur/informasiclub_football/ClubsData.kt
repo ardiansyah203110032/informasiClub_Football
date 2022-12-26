@@ -62,3 +62,9 @@ object ClubsData {
         }
 
 }
+
+//pada kode tersebut memberikan input data yang akan ditampilkan enentukan implementasi 
+//PagingSource untuk mengidentifikasi sumber data. Class API PagingSource mencakup metode load(), 
+//yang harus Anda ganti untuk menunjukkan cara mengambil data yang di-page dari sumber data yang sesuai
+//Implementasi PagingSource juga harus menerapkan metode getRefreshKey() yang membutuhkan objek PagingState 
+//sebagai parameter dan mengembalikan kunci untuk diteruskan ke metode load() saat data di-refresh atau tidak valid setelah pemuatan awal.
