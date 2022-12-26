@@ -52,3 +52,8 @@ class ListClubAdapter(private val listClub: ArrayList<Club>) : RecyclerView.Adap
         fun onItemClicked(data: Club)
     }
 }
+//pada kode program diatas memiliki sebuah akses guna jembatan antara dan AdapterView (contohnya ListView) dengan data.
+//Adapter inilah yang menyediakan akses ke item data dan juga bertanggung jawab untuk membuat sebuah View pada setiap item dalam kumpulan data.
+//menampilkan item yang dimuat ke dalam adaptor. Jenis adaptor yang paling umum berasal dari sumber data berbasis array. 
+//Panduan ini menunjukkan cara menyelesaikan beberapa langkah penting terkait penyiapan adaptor.
+//ArrayAdapters adalah adapter yang simple yang biasanya digunakan untuk mengubah ArrayList sebuah object menjadi View item yang dimasukkan ke dalam ListView Container
