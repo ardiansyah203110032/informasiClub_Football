@@ -34,3 +34,9 @@
     </application>
 
 </manifest>
+//pada kode program diatas memiliki koneksi kedalam sebuah activity dan fragmen menjelaskan informasi penting tentang aplikasi Anda ke fitur build Android
+//Aktivitas, layanan, dan penerima siaran aplikasi diaktifkan oleh intent. terddapat pesan yang ditentukan oleh objek Intent yang menjelaskan tindakan yang akan dilakukan, 
+//termasuk data yang akan ditindaklanjuti, kategori komponen yang harus melakukan tindakan, dan instruksi lainnya.
+//Ikon dan label yang disetel dalam <intent-filter> komponen ditampilkan ke halaman komponen tersebut ditampilkan sebagai opsi untuk memenuhi suatu intent. 
+//Secara default, ikon ini diwarisi dari ikon mana saja yang dideklarasikan untuk komponen induk (baik elemen <activity> atau <application>),
+//mengubah ikon untuk filter intent jika menyediakan tindakan unik yang Anda ingin tunjukkan lebih baik dalam dialog pemilih.
