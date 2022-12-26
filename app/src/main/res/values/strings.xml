@@ -8,3 +8,4 @@
     <string name="email">mnurardiansyah961@gmail.com</string>
     <string name="nama_saya">ArdiansyahMnur203110032</string>
 </resources>
+//memberikan deskripsi detail mengenai keterangan aplikasi yang terhubng dengan type data string kemudia terkoneksi kedalam activity dan menampilkannya.
