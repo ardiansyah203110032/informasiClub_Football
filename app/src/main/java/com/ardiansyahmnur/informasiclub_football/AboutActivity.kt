@@ -11,3 +11,4 @@ class AboutActivity : AppCompatActivity() {
         setContentView(R.layout.activity_profile)
     }
 }
+//pada kode program diatas memberikan akses untuk memuat tampilan profil dengan adanya image dan teks pada fragmen.
