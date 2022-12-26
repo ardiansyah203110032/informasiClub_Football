@@ -17,3 +17,6 @@
 
     </style>
 </resources>
+//pada kode program diatas merupakan penerapan style dan tema yang mana untuk mengatur tampilan sistem.
+//kumpulan atribut yang menentukan tampilan untuk View tunggal. Gaya dapat menentukan atribut seperti warna font, ukuran font, 
+//warna latar belakang, dan banyak lagi. Tema adalah kumpulan atribut yang diterapkan ke seluruh aplikasi, aktivitas, atau hierarki tampilan, bukan hanya tampilan individual.
