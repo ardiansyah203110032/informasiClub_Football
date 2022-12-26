@@ -8,3 +8,4 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
+//pada kode program diatas merupakan file dengan nama colors.xml yang mana untuk menatur dan memuat tampilan dengan variabel yang diinputkan.
