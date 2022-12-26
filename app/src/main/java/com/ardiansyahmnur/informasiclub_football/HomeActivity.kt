@@ -65,3 +65,7 @@ class HomeActivity : AppCompatActivity() {
         })
     }
 }
+//pada kode program diatas merupakan sebuah  digunakan untuk memulai sebuah activity lain. Intent dibagi menjadi 2, yaitu : 
+//Explicit Intent berfungsi untuk mengaktifkan komponen-komponen dalam satu aplikasi yang sama. 
+//sebuah komponen aplikasi yang menyediakan layar yang digunakan pengguna untuk berinteraksi guna melakukan sesuatu, 
+//misalnya memilih nomor ponsel, mengambil foto, mengirim email, atau menampilkan peta.
