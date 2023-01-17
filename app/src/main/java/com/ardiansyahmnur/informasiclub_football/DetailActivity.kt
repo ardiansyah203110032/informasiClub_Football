@@ -63,6 +63,17 @@ class DetailActivity : AppCompatActivity() {
                     type = "text/plain"
                 }
                 startActivity(sendIntent)
+          @Dao
+          interface UserDao {
+         @Insert(onConflict = OnConflictStrategy.REPLACE)
+        fun insertUsers(vararg users: User)
+
+       @Insert
+       fun insertBothUsers(user1: User, user2: User)
+
+        @Insert
+      fun insertUsersAndFriends(user: User, friends: List<User>)
+}
             }
         }
     }
