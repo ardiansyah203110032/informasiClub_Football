@@ -1,6 +1,8 @@
 package com.ardiansyahmnur.informasiclub_football
 
 object ClubsData {
+    object ApiEndpoint {
+    var BASEURL = "https://football.com/search?q={query}"
     private val clubNames = arrayOf("Arsenal",
         "Aston Vila",
         "Chelsea",
