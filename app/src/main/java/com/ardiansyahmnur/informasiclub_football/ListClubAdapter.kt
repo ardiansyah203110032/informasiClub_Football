@@ -11,6 +11,36 @@ import com.bumptech.glide.request.RequestOptions
 
 class ListClubAdapter(private val listClub: ArrayList<Club>) : RecyclerView.Adapter<ListClubAdapter.ListViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback
+    
+    val viewModel: CreateReminderViewModel by lazy {
+        val app = application as ReminderApp
+        val viewModelProviderFactory =
+            CreateReminderViewModelProviderFactory(
+                app,
+                intent
+            )
+        ViewModelProvider(
+            this,
+            viewModelProviderFactory
+        )[CreateReminderViewModel::class.java]
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.createreminderactivity)
+
+        val reminderEditText: EditText = findViewById(R.id.reminderEditTextView)
+        val createReminderButton: Button = findViewById(R.id.createReminderButton)
+
+
+        createReminderButton.setOnClickListener {
+            createReminder(
+                text = reminderEditText.text.toString()
+            )
+        }
+    }
+
+    private fun
 
     fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
         this.onItemClickCallback = onItemClickCallback
