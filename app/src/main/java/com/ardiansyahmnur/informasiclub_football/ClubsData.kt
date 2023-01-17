@@ -3,6 +3,18 @@ package com.ardiansyahmnur.informasiclub_football
 object ClubsData {
     object ApiEndpoint {
     var BASEURL = "https://football.com/search?q={query}"
+    fun sendGet() {
+    val url = URL("https://www.google.com/search?gs_ssp=eJzj4tDP1Tcwii9JNmD0Es7OKU1SKChKzc1MLVLISU1ML00FAJg0Clk&q=klub+premier+league&rlz=1C1GCEU_en-GBID945ID945&oq=club+preme&aqs=chrome.1.69i57j46i10i13i512j0i10i13i512l3j0i13i30l4.4847j0j7&sourceid=chrome&ie=UTF-8")
+
+    with(url.openConnection() as HttpURLConnection) {
+        requestMethod = "GET"  // optional default is GET
+
+        println("\nSent 'GET' request to URL : $url; Response Code : $responseCode")
+
+        inputStream.bufferedReader().use {
+            it.lines().forEach { line ->
+                println(line)
+            }
     private val clubNames = arrayOf("Arsenal",
         "Aston Vila",
         "Chelsea",
