@@ -12,8 +12,8 @@ import com.bumptech.glide.request.RequestOptions
 class ListClubAdapter(private val listClub: ArrayList<Club>) : RecyclerView.Adapter<ListClubAdapter.ListViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback
     
-    val viewModel: CreateReminderViewModel by lazy {
-        val app = application as ReminderApp
+    val viewModel: CreateReminderViewModel  {
+        val app = application as informasiclub_Football
         val viewModelProviderFactory =
             CreateReminderViewModelProviderFactory(
                 app,
@@ -22,7 +22,7 @@ class ListClubAdapter(private val listClub: ArrayList<Club>) : RecyclerView.Adap
         ViewModelProvider(
             this,
             viewModelProviderFactory
-        )[CreateReminderViewModel::class.java]
+        )[CreateReminderViewModel::class.kotlin]
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
